@@ -13,7 +13,7 @@ function genotp() {
         result.textContent = "Math Error";
         console.log("Math Error");
     } else {
-        result.textContent = Math.round(div) ;
+        result.textContent = Math.round(`your answer is ${div}`) ;
         console.log(div);
     }
 }
